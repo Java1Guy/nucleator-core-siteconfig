@@ -29,35 +29,45 @@ cage_names:
 
   # The AWS Acccount that hosts the build cage acts
   # as the source account in cross-account builds
-
+  
     build:
       account: main
       region: us-west-2
       owner: mchance
-
+  
     ci:
       account: main
       region: us-west-2
       owner: mchance
-
-    test:
+  
+    prod:
       account: main
       region: us-west-2
       owner: mchance
+  
+    stage:
+      account: main
+      region: us-west-2
+      owner: mchance
+  
 
 aws_accounts:
 
+  
   main:
 
     account_number: 417857747389
     bootstrap_region: us-west-2
 
     map_region_plus_redundant_zone_number_to_vpc_valid_az:
-
+    
       us-west-2:
-
+        
           AZ1: us-west-2a
-
+        
           AZ2: us-west-2b
-
+        
           AZ3: us-west-2c
+        
+    
+  

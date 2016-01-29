@@ -14,10 +14,10 @@
 ---
 
 #
-# configuration for customer lvsands cage: test
+# configuration for customer lvsands cage: prod
 #
 first8: 172
-second8: 33
+second8: 34
 public1: 0
 public2: 1
 private1: 4

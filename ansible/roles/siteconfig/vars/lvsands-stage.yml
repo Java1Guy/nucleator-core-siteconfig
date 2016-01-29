@@ -14,10 +14,10 @@
 ---
 
 #
-# configuration for customer lvsands cage: ci
+# configuration for customer lvsands cage: stage
 #
 first8: 172
-second8: 33
+second8: 35
 public1: 0
 public2: 1
 private1: 4
