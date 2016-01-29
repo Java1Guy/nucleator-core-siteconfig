@@ -30,7 +30,12 @@ cage_names:
   # The AWS Acccount that hosts the build cage acts
   # as the source account in cross-account builds
   
-    build:
+    ci:
+      account: main
+      region: us-west-2
+      owner: mchance
+  
+    test:
       account: main
       region: us-west-2
       owner: mchance
