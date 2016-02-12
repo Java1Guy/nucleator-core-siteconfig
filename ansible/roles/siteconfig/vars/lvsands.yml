@@ -47,7 +47,7 @@ cage_names:
   
     stage:
       account: main
-      region: us-west-2
+      region: us-west-1
       owner: mchance
   
 
@@ -60,7 +60,12 @@ aws_accounts:
     bootstrap_region: us-west-2
 
     map_region_plus_redundant_zone_number_to_vpc_valid_az:
-    
+      us-west-1:
+        
+          AZ1: us-west-1b
+        
+          AZ2: us-west-1c
+        
       us-west-2:
         
           AZ1: us-west-2a
