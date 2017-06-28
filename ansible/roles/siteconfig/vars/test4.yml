@@ -14,13 +14,13 @@
 ---
 
 #
-# configuration for customer lvsands
+# configuration for customer test4
 #
 
 # customer_domain is used for external routing to each of the cages
 # configured for this customer, e.g. "nucleator-ui.build.somedomain.com"
 
-customer_domain: lvsands.47lining.com
+customer_domain: test4.47lining.com
 
 # A Cage is a set of managed AWS infrastructure that exists for a particular purpose.
 # Cages can be maintained across one or more customer-specific AWS Accounts.
@@ -29,31 +29,31 @@ cage_names:
 
   # The AWS Acccount that hosts the build cage acts
   # as the source account in cross-account builds
-  
+
     build:
       account: main
       region: us-west-2
       owner: mchance
-  
+
     ci:
       account: main
       region: us-west-2
       owner: mchance
-  
+
     prod:
       account: main
       region: us-west-2
       owner: mchance
-  
+
     stage:
       account: main
       region: us-west-1
       owner: mchance
-  
+
 
 aws_accounts:
 
-  
+
   main:
 
     account_number: 417857747389
@@ -61,18 +61,18 @@ aws_accounts:
 
     map_region_plus_redundant_zone_number_to_vpc_valid_az:
       us-west-1:
-        
+
           AZ1: us-west-1b
-        
+
           AZ2: us-west-1c
-        
+
       us-west-2:
-        
+
           AZ1: us-west-2a
-        
+
           AZ2: us-west-2b
-        
+
           AZ3: us-west-2c
-        
-    
-  
+
+
+
